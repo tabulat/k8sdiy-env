@@ -18,7 +18,7 @@ spec:
       spec:
         provider: generic # or 'github' if using GitHub App
         interval: 1m
-        url: https://github.com/den-vasyliev/kbot-src
+        url: https://github.com/tabulat/kbot
         ref:
           commit: << inputs.sha >>
         secretRef:

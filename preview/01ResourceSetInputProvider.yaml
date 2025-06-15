@@ -7,7 +7,7 @@ metadata:
     fluxcd.controlplane.io/reconcileEvery: "1m"
 spec:
   type: GitHubPullRequest
-  url: https://github.com/den-vasyliev/kbot-src
+  url: https://github.com/tabulat/kbot
   secretRef:
     name: github-auth
   defaultValues:
